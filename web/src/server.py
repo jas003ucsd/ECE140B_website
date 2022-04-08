@@ -12,7 +12,7 @@ db_name = os.environ['MYSQL_DATABASE']
 db_host = os.environ['MYSQL_HOST']
 
 def get_home(req):
-    return FileResponse("template/home.html")
+    return FileResponse("templates/home.html")
 
 ''' Route Configurations '''
 if __name__ == '__main__':
