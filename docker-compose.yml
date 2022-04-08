@@ -11,7 +11,7 @@ services:
       ./credentials.env
     volumes:
       - ./web/src:/app
-    container_name: individual-web
+    container_name: agile-web
 
   db-server:
     image: mysql:latest
@@ -22,7 +22,7 @@ services:
       - 3306:3306 # host : container
     volumes:
       - ./db:/var/lib/mysql # persistent DB when container is stopped
-    container_name: individual-db
+    container_name: agile-db
 
 volumes:
   db:
