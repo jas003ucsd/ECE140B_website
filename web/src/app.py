@@ -17,5 +17,5 @@ if __name__ == '__main__':  # Program entrance
     config.add_static_view(name='/', path='./public', cache_max_age=3600)
 
     app = config.make_wsgi_app()
-    server = make_server('0.0.0.0', 6001, app)
+    server = make_server('0.0.0.0', 6000, app)
     server.serve_forever()
