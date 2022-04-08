@@ -10,7 +10,7 @@ RUN pip install -r /tmp/requirements.txt
 
 WORKDIR /app
 
-EXPOSE 6000
+EXPOSE 6001
 
 CMD python app.py
 # Uncomment if you wish to use bjoern or waitress web servers instead of the default
