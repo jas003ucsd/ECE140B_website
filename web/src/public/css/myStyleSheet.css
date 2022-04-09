@@ -15,7 +15,7 @@ body {
 .learnCSS {
   background: red;
   border: .1rem solid black;
-  padding 1rem;
+  padding: 1rem;
   margin: 1rem
 }
 
