@@ -13,16 +13,16 @@ services:
       - ./web/src:/app
     container_name: agile-web
 
-  db-server:
-    image: mysql:latest
-    restart: always
-    env_file:
-      ./credentials.env
-    ports:
-      - 3306:3306 # host : container
-    volumes:
-      - ./db:/var/lib/mysql # persistent DB when container is stopped
-    container_name: agile-db
-
-volumes:
-  db:
+#  db-server:
+#    image: mysql:latest
+#    restart: always
+#    env_file:
+#      ./credentials.env
+#    ports:
+#      - 3306:3306 # host : container
+#    volumes:
+#      - ./db:/var/lib/mysql # persistent DB when container is stopped
+#    container_name: agile-db
+#
+#volumes:
+#  db:
