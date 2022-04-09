@@ -1,6 +1,7 @@
 from wsgiref.simple_server import make_server
 from pyramid.config import Configurator
 from pyramid.renderers import render_to_response
+from pyramid.response import Response, FileResponse
 
 import mysql.connector as mysql
 import os
@@ -19,6 +20,9 @@ def get_home(req):
   db.close()
 
   return render_to_response('templates/home.html', {'users': records}, request=req)
+
+def get_home(req):
+  return FileResponse('templates/index.html')
 
 ''' Route Configurations '''
 if __name__ == '__main__':
