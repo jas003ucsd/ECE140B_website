@@ -1,26 +1,57 @@
 body {
-  padding: 1rem;
-  font-family: sans-serif;
-  font-size: 16pt;
-  box-sizing: border-box;
-  background: lightGray;
+    padding: 1rem;
+    font-family: sans-serif;
+    font-size: 16pt;
+    box-sizing: border-box;
+    background: lightGray;
 }
 
 .product {
-  background: lightblue;
-  border: .1rem solid black;
-  padding: 1rem;
-  margin: 1rem;
+    background: lightblue;
+    border: .1rem solid black;
+    padding: 1rem;
+    margin: 1rem;
 }
 .learnCSS {
-  background: red;
-  border: .1rem solid black;
-  padding: 1rem;
-  margin: 1rem;
+    background: red;
+    border: .1rem solid black;
+    padding: 1rem;
+    margin: 1rem;
 }
 
 section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap:1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:1rem;
+}
+
+.sidenav {
+    height: 100%;
+    width: 20rem;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+}
+
+.item {
+    order: 5;
+    flex-grow: 4;
+    flex-shrink: 3;
+    align-self: center;
+
+
 }
