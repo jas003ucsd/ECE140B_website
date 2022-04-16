@@ -47,6 +47,11 @@ section {
     border: .1rem solid black;
 }
 
+.sidenav a {
+  display: block;
+  padding: 1rem;
+}
+
 .container {
     display: flex;
     flex-direction: row;
