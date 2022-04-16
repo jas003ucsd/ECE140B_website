@@ -55,7 +55,7 @@ section {
     justify-content: center;
     align-items: stretch;
     align-content: center;
-
+    background-color: #888888;
 }
 
 .item {
@@ -66,6 +66,5 @@ section {
     border: .1rem solid black;
     padding: 1rem;
     margin: 1rem;
-    background-color: #888888;
-
+    background: lightGray;
 }
