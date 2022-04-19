@@ -9,7 +9,7 @@
 .product {
     background: lightblue;
     border: .1rem solid black;
-     box-shadow: 0 5px 5x #0000ff;
+    box-shadow: 0 5px 5x #6495ed;
     padding: 1rem;
     margin: 1rem;
 }
