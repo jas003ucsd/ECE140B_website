@@ -47,10 +47,28 @@ section {
     border: .1rem solid black;
 }
 
-/*.sidenav a {
+.sidenav a {
   display: block;
-  padding: 2rem;
-}*/
+  /*padding: 2rem;*/
+  background-color: red;
+  border-radius: 25px;
+  box-shadow: 0 5px 0 darkred;
+  color: black;
+  padding: .5rem 1rem;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+.sidenav a:hover {
+  background-color: #ce0606;
+}
+
+.sidenav a:active {
+  box-shadow: none;
+  top: 5px;
+}
 
 .container {
     display: flex;
@@ -75,24 +93,6 @@ section {
     background: lightGray;
 }
 
-a {
-  background-color: red;
-  border-radius: 25px;
-  box-shadow: 0 5px 0 darkred;
-  color: black;
-  padding: .5rem 1rem;
-  position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
-}
 
-a:hover {
-  background-color: #ce0606;
-}
-
-a:active {
-  box-shadow: none;
-  top: 5px;
-}
 
 
