@@ -9,7 +9,7 @@
 .product {
     background: lightblue;
     border: .1rem solid black;
-    box-shadow: 0 5px 5x cornflowerblue;
+    box-shadow: 0 5px 5px cornflowerblue;
     padding: 1rem;
     margin: 1rem;
 }
