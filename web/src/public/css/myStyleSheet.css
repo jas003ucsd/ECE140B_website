@@ -49,7 +49,7 @@ section {
 
 .sidenav a {
   display: block;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .container {
@@ -77,8 +77,9 @@ section {
 
 a {
   background-color: red;
-  border-radius: 20px;
-  box-shadow: 0 5px 0 lightblue;
+  border-radius: 25px;
+  box-shadow: 0 5px 0 darkred;
+  color: black;
   padding: 1rem 1.5rem;
   position: relative;
   text-decoration: none;
