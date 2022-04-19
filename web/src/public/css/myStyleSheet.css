@@ -45,6 +45,7 @@ section {
     overflow-x: hidden;
     padding-top: 1rem;
     border: .1rem solid black;
+    word-spacing: 10px;
 }
 
 .sidenav a {
@@ -54,12 +55,15 @@ section {
   border-radius: 25px;
   box-shadow: 0 5px 0 darkred;
   color: black;
-  padding: .5rem 1rem;
+  padding: .5rem .75rem;
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
 }
 
+.sidenav div {
+    word-spacing: 10px;
+}
 
 .sidenav a:hover {
   background-color: #ce0606;
