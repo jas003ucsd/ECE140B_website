@@ -47,10 +47,10 @@ section {
     border: .1rem solid black;
 }
 
-.sidenav a {
+/*.sidenav a {
   display: block;
   padding: 2rem;
-}
+}*/
 
 .container {
     display: flex;
@@ -80,7 +80,7 @@ a {
   border-radius: 25px;
   box-shadow: 0 5px 0 darkred;
   color: black;
-  padding: 1rem 1.5rem;
+  padding: .5rem 1rem;
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
