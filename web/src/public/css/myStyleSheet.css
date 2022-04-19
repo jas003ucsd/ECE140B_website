@@ -45,7 +45,7 @@ section {
     overflow-x: hidden;
     padding-top: 1rem;
     border: .1rem solid black;
-    word-spacing: 1rem;
+    word-spacing: 1.5rem;
 }
 
 .sidenav a {
