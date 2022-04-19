@@ -74,3 +74,25 @@ section {
     margin: 1rem;
     background: lightGray;
 }
+
+a {
+  background-color: red;
+  border-radius: 25px;
+  box-shadow: 0 5px 0 darkred;
+  color: white;
+  padding: 1rem 1.5rem;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  background-color: #ce0606;
+}
+
+a:active {
+  box-shadow: none;
+  top: 5px;
+}
+
+
