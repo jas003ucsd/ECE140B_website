@@ -77,9 +77,8 @@ section {
 
 a {
   background-color: red;
-  border-radius: 25px;
-  box-shadow: 0 5px 0 darkred;
-  color: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 0 lightblue;
   padding: 1rem 1.5rem;
   position: relative;
   text-decoration: none;
