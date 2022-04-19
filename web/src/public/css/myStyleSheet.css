@@ -9,14 +9,14 @@
 .product {
     background: lightblue;
     border: .1rem solid black;
-      box-shadow: 0 5px 0 darkblue;
+     box-shadow: 0 5px 5x #0000ff;
     padding: 1rem;
     margin: 1rem;
 }
 .learnCSS {
     background: red;
     border: .1rem solid black;
-    box-shadow: 0 5px 0 darkred;
+    box-shadow: 0 5px 5px darkred;
     padding: 1rem;
     margin: 1rem;
 }
