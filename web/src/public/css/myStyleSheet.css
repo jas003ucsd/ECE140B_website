@@ -23,9 +23,17 @@
 
 section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap:1rem;
 }
+@media all and (min-width: 1024px) {
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:1rem;
+    }
+}
+
 
 .main {
     margin-left: 10rem;
