@@ -24,9 +24,9 @@
 section {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap:1rem;
+    grid-gap:1.5rem;
 }
-@media all and (min-width: 1024px) {
+@media all and (min-width: 800px) {
     section {
         display: grid;
         grid-template-columns: 1fr 1fr;
