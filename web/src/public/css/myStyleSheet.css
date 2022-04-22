@@ -181,114 +181,6 @@ section {
     display: none;
 } /* Hide checkbox */
 
-
-Ivy Walobwa
-Ivy is a Flutter developer and technical writer who is interested in creating awesome developer experiences. She is currently a Program Assistant for the Google Africa Developer Scholarship (GADS), where she helps facilitate the learning of students across Africa.
-Creating a responsive mobile menu with CSS without JavaScript
-January 21, 2022  6 min read
-
-CSS Create Responsive Mobile Menu
-A navigation menu that is clear, concise, and easy to intuitively navigate is essential for an optimized website user experience. The responsiveness of the menu is a key factor as well. As of this writing, more than 54 percent of web traffic worldwide is attributed to mobile. With mobile-first responsive design, developers start with the smallest screen size and then gradually scale up, adding add more features and functionality for larger screen sizes. The resulting webpages will automatically adjust to the size of the user’s browser window.
-
-However, as important as a responsive menu is to a website’s UX, it’s not necessary to build it in JavaScript. This tutorial will review how to create a mobile-first responsive menu using only HTML and CSS.
-
-CSS only responsive mobile menu
-There are many techniques available for building responsive mobile menus. One common practice is to use pure CSS without one single line of JavaScript. This technique involves employing a simple HTML list structure to develop a menu of links that can be styled and rendered differently based on a device’s screen size.
-
-In this tutorial, we’ll use CSS to build the below responsive menu for mobile, tablet, and desktop:
-
-CSS Menu Mobile View
-Mobile view.
-CSS Menu Tablet View
-Tablet view.
-CSS Menu Desktop View
-Desktop view.
-For smaller screens, the user must click on a hamburger icon to reveal the menu items. Larger screens will display the menu items inline in the navigation bar.
-
-In this tutorial, we’ll build a responsive menu, including a hamburger icon, entirely from pure HTML and CSS.
-
-CSS Menu Mobile View Hamburger Menu Open
-Mobile view, with hamburger icon opened to reveal the menu items.
-Let’s try it out!
-
-Getting started
-Using your favorite text editor, such as VS Code, create two files in one common folder:
-
-index.html for HTML code
-style.css for CSS code
-Copy the index.html file path and paste it into a browser to preview the app.
-
-Adding the HTML
-Add the following code to the index.html file:
-
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- App title -->
-    <title>Responsive Pure CSS Menu</title>
-    <!-- Link CSS file -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- Navigation bar -->
-    <header class="header">
-        <!-- Logo -->
-        <a href="#" class="logo">LR</a>
-        <!-- Hamburger icon -->
-        <input class="side-menu" type="checkbox" id="side-menu"/>
-        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
-        <!-- Menu -->
-        <nav class="nav">
-            <ul class="menu">
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Blog</a> </li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!-- Main content -->
-    <main>
-        <article>
-            <h1>
-                Some content
-            </h1>
-            <p>
-                More Content
-            </p>
-        </article>
-    </main>
-</body>
-</html>
-This code contains the structure and content of the web page. It also includes a reference to the CSS style sheet.
-
-We use the header and main semantic tags to separate the navigation bar and the main content of the page.
-
-We add a logo using the <a> anchor tag.
-
-Lastly, we create a hamburger menu using a checkbox hack. With this strategy, we can style the menu according to whether the checkbox is checked.
-
-We use a label tag to define the hamburger menu icon. The input tag is used to conditionally display the menu depending on the state of the checkbox (class side-menu).
-
-Then, we add the menu items as link list elements, <li>, in an unordered list, ul. The nav tag serves as the list container.
-
-Here’s the output with HTML only:
-
-Mobile Menu HTML Only
-
-Adding the CSS
-Now, we’ll use CSS to style the different UI components and features:
-
-Style the content and background
-Style the header and logo
-Style the navigation menu
-Style the hamburger menu icon
-Style the toggled menu icon
-Add responsiveness
-Styling the content and background
-We’ll add the following code to the style.css file to adjust the appearance of the HTML content:
-
 /* Theming */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); /* import font */
 
@@ -314,17 +206,7 @@ a{
 ul{
     list-style: none;
 }
-This code imports the Poppins Google font for use in the app.
 
-We define the CSS variables for the colors to be used in the app. Then, we use CSS reset to remove the browser’s default settings for margin , padding , box-sizing, text-decoration, and list-style.
-
-We also specify a white background-color and the Poppins font-family for the page content.
-
-Here’s the output, displaying the styled content and background:
-
-CSS Menu Styled Content Background
-
-Styling the header and logo
 /* Header */
 .header{
     background-color: var(--black);
@@ -340,15 +222,7 @@ Styling the header and logo
     font-size: 60px;
     margin-left: 10px;
 }
-This code adds a black background-color and gray box-shadow to the header. To keep the header at the top of the screen during scrolling, we specify a sticky position and a zero offset from the top. We also adjust the header to stretch across the full width of the device.
 
-We style the logo by specifying the color, font-size, and left-margin. Not to be confused with padding, the [margin]is the area around the logo that separates it from other elements.
-
-Here’s the output, displaying the styled header and logo:
-
-CSS Styled Header Logo
-
-Styling the navigation menu
 /* Nav menu */
 .nav{
     width: 100%;
@@ -370,17 +244,7 @@ Styling the navigation menu
     max-height: 0;
     transition: max-height .5s ease-out;
 }
-In this code, we specify width and height properties of 100 percent for the nav element in order to fit the content to the screen. Then, we specify a fixed position to overlay the navigation menu on top of the main app content. We also select a black background-color for the nav element and specify that any overflow content from the nav element should be hidden.
 
-For the menu link elements, we specify a block format display, add padding and color, and change the background-color from white to gray on hover.
-
-Lastly, we use the CSS [transition] property and a max-height of zero to hide the nav element by default but reveal it when the menu icon is clicked.
-
-Here’s the output, displaying the styled navigation menu:
-
-CSS Styled Navigation Menu
-
-Styling the hamburger menu
 /* Menu Icon */
 .hamb{
     cursor: pointer;
@@ -417,19 +281,7 @@ Styling the hamburger menu
 .side-menu {
     display: none;
 } /* Hide checkbox */
-In this code, we specify that a pointer cursor should be displayed when a user interacts with the hamburger menu. We position the label element to the right and add some padding.
 
-Next, we style the span element to create the three menu icon lines.
-
-We use the CSS pseudo-elements [::before] and [::after] on the span element to define the three hamburger icon lines. The .hamb-line selector defines the center (or second) line. The .hamb-line::before and .hamb-line::after position the first and third lines 5px above and below the center line, respectively.
-
-Lastly, we use the display property to hide the checkbox (.side-menu).
-
-Here’s the output, displaying the styled hamburger menu:
-
-CSS Styled Hamburger Menu
-
-Styling the toggled menu icon
 /* Toggle menu icon */
 .side-menu:checked ~ nav{
     max-height: 100%;
