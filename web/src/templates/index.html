@@ -7,15 +7,50 @@
     <link rel="stylesheet" type="text/css" href="css/myStyleSheet.css">
 </head>
 
-
-<!-- Side navigation -->
 <div class="sidenav">
+  <div id="menuToggle">
+    <!--
+    hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input id="toggle" type="checkbox" />
+    <label for="toggle">
+      <span>menu</span>
+      <!--
+      divs to be styled as a hamburger button
+      -->
+      <div></div>
+      <div></div>
+      <div></div>
+    </label>
+
+
+    <!--
+    the menu that will slide in from the left
+    -->
+    <ul id="menu">
     <a href="./product.html">Product</a>
     <a href="./KVP.html">KVP</a>
+    </ul>
+  </div>
 </div>
-<body class="main">
 
-<img src="https://department.ucsd.edu/_images/image-library/hero/geisel-clouds-bw.png" alt="LA" style="width:100%">
+
+
+
+
+
+
+
+
+<!--&lt;!&ndash; Side navigation &ndash;&gt;-->
+<!--<div class="sidenav">-->
+<!--    <a href="./product.html">Product</a>-->
+<!--    <a href="./KVP.html">KVP</a>-->
+<!--</div>-->
+<!--<body class="main">-->
+
+<img title="from www.gmpopcorn.com"src="https://www.gmpopcorn.com/Portals/0/grocery_demographics_banner.png" alt="LA" style="width:100%">
 <section>
 <div class="product">
     <h1>Automatic Grocery Inventory</h1>
