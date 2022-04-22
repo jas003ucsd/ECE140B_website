@@ -61,9 +61,8 @@ section {
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); /* import font */
 
 :root{
-    --white: #f9f9f9;
     --black: #36383F;
-    --gray: #85888C;
+    --gray: #888888;
 } /* variables*/
 
 /* Reset */
@@ -73,7 +72,7 @@ section {
     box-sizing: border-box;
 }
 body{
-    background-color: var(--white);
+    background-color: lightGray;
     font-family: "Poppins", sans-serif;
 }
 a{
@@ -94,7 +93,7 @@ ul{
 /* Logo */
 .logo{
     display: inline-block;
-    color: var(--white);
+    color: lightGray;
     font-size: 60px;
     margin-left: 10px;
 }
@@ -111,7 +110,7 @@ ul{
 .menu a{
     display: block;
     padding: 30px;
-    color: var(--white);
+    color: lightGray;
 }
 .menu a:hover{
     background-color: var(--gray);
@@ -129,7 +128,7 @@ ul{
 }/* Style label tag */
 
 .hamb-line {
-    background: var(--white);
+    background: lightGray;
     display: block;
     height: 2px;
     position: relative;
@@ -139,7 +138,7 @@ ul{
 
 .hamb-line::before,
 .hamb-line::after{
-    background: var(--white);
+    background: lightGray;
     content: '';
     display: block;
     height: 100%;
