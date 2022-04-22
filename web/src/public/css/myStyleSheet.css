@@ -83,38 +83,6 @@ section {
     }
 
     /*
-     * Hamburger
-     */
-    #menuToggle label div {
-        display: block;
-        width: 30px;
-        height: 2px;
-        margin-bottom: 6px;
-        position: relative;
-        background: #cdcdcd;
-        border-radius: 3px;
-        z-index: 1;
-        -webkit-transform-origin: 4px 0px;
-          -ms-transform-origin: 4px 0px;
-              transform-origin: 4px 0px;
-        -webkit-transition: all 0.3s ease;
-        -o-transition: all 0.3s ease;
-        transition: all 0.3s ease;
-    }
-
-    #menuToggle label div:first-child {
-        -webkit-transform-origin: 0% 100%;
-          -ms-transform-origin: 0% 100%;
-              transform-origin: 0% 100%;
-    }
-
-    #menuToggle label div:nth-child(2) {
-        -webkit-transform-origin: 0% 0%;
-          -ms-transform-origin: 0% 0%;
-              transform-origin: 0% 0%;
-    }
-
-    /*
      * Change the color of the hamburger when toggled
      */
     #menuToggle input:checked + label div {
@@ -161,7 +129,7 @@ section {
     box-sizing: border-box;
     background: lightGray;
 }
-.sidenav {
+#menuToggle {
     height: 100%;
     width: 10rem;
     position: fixed;
@@ -174,7 +142,7 @@ section {
     border: .1rem solid black;
 }
 
-.sidenav a {
+#menuToggle a {
   display: block;
   margin-top: .5rem;
   border: .1rem solid black;
@@ -189,11 +157,11 @@ section {
   text-transform: uppercase;
 }
 
-.sidenav a:hover {
+#menuToggle a:hover {
   background-color: #ce0606;
 }
 
-.sidenav a:active {
+#menuToggle a:active {
   box-shadow: none;
   top: 5px;
 }
@@ -220,8 +188,3 @@ section {
     margin: 1rem;
     background: lightGray;
 }
-
-
-
-
-
