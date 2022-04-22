@@ -32,6 +32,18 @@ section {
         grid-template-columns: 1fr 1fr;
         grid-gap:1rem;
     }
+    .sidenav {
+        height: 10rem;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #888888;
+        overflow-x: hidden;
+        padding-top: 1rem;
+        border: .1rem solid black;
+    }
 }
 
 .main {
