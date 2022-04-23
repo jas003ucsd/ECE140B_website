@@ -5,7 +5,7 @@
     box-sizing: border-box;
     background: lightGray;
 }*/
-
+h1 { margin-top: 0; }
 .product {
     background: lightblue;
     border: .1rem solid black;
