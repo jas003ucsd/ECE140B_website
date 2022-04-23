@@ -19,11 +19,11 @@ section {
     grid-gap:1.5rem;
 }
 @media all and (min-width: 768px) {
-    section {
+    /*section {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap:1rem;
-    }
+    }*/
 }
 /*
 .main {
