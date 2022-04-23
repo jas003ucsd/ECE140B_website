@@ -6,10 +6,10 @@ from pyramid.response import Response, FileResponse
 import mysql.connector as mysql
 import os
 
-#db_user = os.environ['MYSQL_USER']
-#db_pass = os.environ['MYSQL_PASSWORD']
-#db_name = os.environ['MYSQL_DATABASE']
-#db_host = os.environ['MYSQL_HOST']
+db_user = os.environ['MYSQL_USER']
+db_pass = os.environ['MYSQL_PASSWORD']
+db_name = os.environ['MYSQL_DATABASE']
+db_host = os.environ['MYSQL_HOST']
 
 
 # def get_home(req):
