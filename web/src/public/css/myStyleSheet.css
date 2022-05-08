@@ -146,7 +146,7 @@ section {
     justify-content: center;
     align-items: stretch;
     align-content: center;
-    background-color: #888888;
+    background-color: light-grey;
     border: .1rem solid black;
 }
 
@@ -158,10 +158,9 @@ section {
     border: .1rem solid black;
     padding: 1rem;
     margin: 1rem;
-    background: lightGray;
+    background: red;
 }
 
-/* Three columns side by side */
 .column {
   float: left;
   width: 20%;
@@ -198,18 +197,3 @@ section {
   color: grey;
 }
 
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-}
