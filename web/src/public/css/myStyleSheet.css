@@ -146,7 +146,7 @@ section {
     justify-content: center;
     align-items: stretch;
     align-content: center;
-    background-color: #darkred;
+    background-color: #BEBEBE;
     border: .1rem solid black;
 }
 
@@ -202,9 +202,9 @@ section {
     font-color: cornflowerblue
 }
 .About {
-    background: #4d4d4d;
+    background: #BEBEBE;
     border: .1rem solid black;
-    box-shadow: 0 5px 5px #4d4d4d;
+    box-shadow: 0 5px 5px #BEBEBE;
     padding: 1rem;
     margin: 1rem;
 }
