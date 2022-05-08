@@ -208,8 +208,8 @@ section {
 }
 
 .lastName {
-    font-size: 1rem;
-    font-color: cornflowerblue
+    font-size: 3rem;
+    font-color: lightblue;
 }
 .About {
     background: #BEBEBE;
@@ -218,4 +218,5 @@ section {
     padding: 1rem;
     margin: 1rem;
 }
+
 
