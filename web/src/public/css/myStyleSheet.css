@@ -182,8 +182,10 @@ section {
 }
 
 /* Some left and right padding inside the container */
-.container {
+.container1 {
   padding: 0 16px;
+  background: red;
+
 }
 
 /* Clear floats */
