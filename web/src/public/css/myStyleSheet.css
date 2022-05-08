@@ -194,11 +194,15 @@ section {
 }
 
 .title {
-  color: grey;
+  color: white;
 }
 
+.lastName {
+    font-size: 1rem;
+    font-color: cornflowerblue
+}
 .About {
-    background: red;
+    background: #4d4d4d;
     border: .1rem solid black;
     box-shadow: 0 5px 5px #4d4d4d;
     padding: 1rem;
