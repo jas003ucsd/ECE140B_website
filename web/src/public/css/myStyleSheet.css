@@ -146,7 +146,7 @@ section {
     justify-content: center;
     align-items: stretch;
     align-content: center;
-    background-color: red;
+    background-color: #darkred;
     border: .1rem solid black;
 }
 
@@ -198,9 +198,9 @@ section {
 }
 
 .About {
-    background: #4d4d4d;
+    background: red;
     border: .1rem solid black;
-    box-shadow: 0 5px 5px darkred;
+    box-shadow: 0 5px 5px #4d4d4d;
     padding: 1rem;
     margin: 1rem;
 }
