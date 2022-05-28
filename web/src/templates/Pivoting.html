@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Key Value Proposition </title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/myStyleSheet.css">
+</head>
+
+<div class="nav">
+  <input type="checkbox" id="nav-check">
+  <div class="nav-header">
+    <div class="nav-title">
+      Grocery Tracker
+    </div>
+  </div>
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+
+  <div class="nav-links">
+    <a href="/">Home</a>
+    <a href="/p/product.html">Product</a>
+    <a href="/p/KVP.html">KVP</a>
+    <a href="/p/UXUI.html">UX/UI</a>
+    <a href="/p/IA.html">IA</a>
+    <a href="/p/features.html">Features/Benefits</a>
+    <a href="/p/Cost.html">Cost/Revenue</a>
+  </div>
+</div>
+
+<body class="main">
+    <div class="container">
+        <h1 class="item">Pivoting</h1>
+        <p class="item">
+            We have made a few pivot from the initial idea. The first was that
+            we were going to have the camera in side the fridge looking sideways.
+            This lead to several issues. The biggest was a power source. We felt
+            that the customer was not going to want to deal with the battery or charging
+            the device. This also had issues with picking up items on the doors and
+            where to mount the device. We moved the device to be mount to the top of the
+            fridge. This allows for no batteries and an angle that does not catch
+            the door in frame.
+        </p>
+        <p class="item">
+            We also pivot from using an API for our machine learning model for item detection
+            to the open source project YOLO. The API only would identify a single item and give
+            a list of confidences. Using YOLO we will be able to get bounding boxes and identify
+            the direction of the items. This will lower accuracy in the short term, but improve
+            the count and direction making a better product.
+        </p>
+        <p class="item">
+            Another pivot that we would not have time to implement is getting rid of the
+            contact sensor and use motion detect to turn on the camera. This would make the
+            install process easier for the user and less up keep in that there are less
+            moving parts or attachments.
+        </p>
+        <p class="item">
+            Each of these 3 pivot would be a technology pivot. Each of these
+            changes were made to make better product and improve the user experience.
+
+            For the MVP we also did a zoom-in. We think to make this a fuller feature product.
+            This would include ways to make grocery list, automatically adding items, or even
+            ordering the for you.
+        </p>
+    </div>
+
+</body>
+</html>
+
